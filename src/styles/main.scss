@@ -1,0 +1,27 @@
+@import './variables';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiDrawer-paper {
+  width: 240px;
+  margin-top: 64px;
+}
+
+.MuiAlert-root {
+  margin: $spacing-unit 0;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+}
